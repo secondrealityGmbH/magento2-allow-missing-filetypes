@@ -1,16 +1,18 @@
-# Mage2 Module SecondrealityGmbH AllowMissingFileTypes
+# Magento 2 Module to allow missing filetypes
 
-    ``secondrealitygmbh/module-allowmissingfiletypes``
+    ``secondrealitygmbh/magento2-allowmissingfiletypes``
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
- - [Configuration](#markdown-header-configuration)
- - [Specifications](#markdown-header-specifications)
- - [Attributes](#markdown-header-attributes)
-
+ 
 
 ## Main Functionalities
-Enable the upload of missing Filetypes like videos and PDFs.
+Enable the upload of missing Filetypes like videos and PDFs.  
+Currently enables:
+- pdf
+- mp4
+- m4v
+- webm
 
 ## Installation
 \* = in production please use the `--keep-generated` option
@@ -24,28 +26,11 @@ Enable the upload of missing Filetypes like videos and PDFs.
 
 ### Type 2: Composer
 
- - Make the module available in a composer repository for example:
-    - private repository `repo.magento.com`
-    - public repository `packagist.org`
-    - public github repository as vcs
- - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require secondrealitygmbh/module-allowmissingfiletypes`
+ - Install the module composer by running `composer require secondrealitygmbh/magento2-allowmissingfiletypes`
  - enable the module by running `php bin/magento module:enable SecondrealityGmbH_AllowMissingFileTypes`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
-
-## Configuration
-
-
-
-
-## Specifications
-
-
-
-
-## Attributes
 
 
 
