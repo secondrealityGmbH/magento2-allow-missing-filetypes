@@ -1,15 +1,27 @@
 {
-  "name": "secondrealitygmbh/module-allowmissingfiletypes",
+  "name": "secondrealitygmbh/magento2-allowmissingfiletypes",
   "description": "Enable the upload of missing Filetypes like videos and PDFs.",
   "type": "magento2-module",
   "license": "OSL-3.0",
+  "keywords": [
+    "magento",
+    "fileupload",
+    "pdf",
+    "mp4",
+    "m4v",
+    "video"
+  ],
+  "homepage": "https://www.secondreality.com",
   "authors": [
     {
       "name": "Frank Stuhec",
-      "email": "frank.stuhec@secondreality.com"
+      "email": "hello@secondreality.com",
+      "homepage": "https://www.secondreality.com",
+      "role": "Leader"
     }
   ],
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {},
   "autoload": {
     "files": [
